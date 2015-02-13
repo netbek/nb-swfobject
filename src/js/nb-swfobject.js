@@ -12,9 +12,7 @@
 	angular
 		.module('nb.swfobject', [])
 		.factory('SWFObject', ['$window', function SWFObject ($window) {
-				var SWFObject = $window.swfobject;
-				delete $window.swfobject;
-				return SWFObject;
+				return $window.swfobject;
 			}])
 		.run(runBlock);
 
