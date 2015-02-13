@@ -1,0 +1,25 @@
+{
+	"name": "nb-swfobject",
+	"version": "0.0.1",
+	"description": "AngularJS wrapper for SWFObject",
+	"homepage": "https://github.com/netbek/nb-swfobject",
+	"author": {
+		"name": "Hein Bekker",
+		"email": "hein@netbek.co.za",
+		"url": "http://netbek.co.za"
+	},
+	"license": {
+		"type": "AGPLv3",
+		"url": "http://www.gnu.org/licenses/agpl-3.0.txt"
+	},
+	"ignore": [
+		"bower_components",
+		"node_modules",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"angularjs": "~1.3.13",
+		"swfobject": "https://github.com/netbek/swfobject.git#master"
+	}
+}
