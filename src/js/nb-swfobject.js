@@ -11,13 +11,7 @@
 
 	angular
 		.module('nb.swfobject', [])
-		.factory('SWFObject', ['$window', function SWFObject ($window) {
+		.factory('SWFObject', ['$window', function ($window) {
 				return $window.swfobject;
-			}])
-		.run(runBlock);
-
-	// Invoke at runtime to allow factory to delete global reference.
-	runBlock.$inject = ['SWFObject'];
-	function runBlock (SWFObject) {
-	}
+			}]);
 })(window, window.angular);
